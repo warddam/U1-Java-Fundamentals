@@ -33,7 +33,7 @@ public class L2{
 In all Java programs a variable's type and value must match. Always. This seems simple, but on down the road this will cause your programs to bork. Also note the semi-colon at the end of each line. The importance of this will be explained later.
 
 ### Identifiers
-
+********
 Identifiers are the names you give to variables. These names and be anything you wish, however there are rules to follow. 
 
 * Rule #1 - Identifiers must have a name that hints at their meaning. 
