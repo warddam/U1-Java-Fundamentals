@@ -7,10 +7,11 @@ public class CalculatingDistance {
 
     */
     public static void main(String[] args) {
-        int mph = 55;
-        int minutes = 45;
-        double miles = 41.25;
-        System.out.println();
+        double mph = 55.0;
+        double minutes = 45.0;
+
+
+        System.out.println(mph * minutes/ 60);
     }
 
     }

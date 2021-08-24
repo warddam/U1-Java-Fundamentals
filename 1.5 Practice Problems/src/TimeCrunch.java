@@ -7,6 +7,10 @@ public class TimeCrunch {
     Example:
      */
     public static void main(String[] args) {
+  double secHour = 300.0 ;
+     double secMin = 60 ;
+     double sec = 0.60;
+        System.out.println( secHour * sec);
 
     }
 }
