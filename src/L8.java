@@ -1,18 +1,22 @@
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class L8 {
 
     public static void main(String[] args) {
+
+
+        //Create a Scanner object to read input
+
         String name;
         int hours;
         double payRate;
         double grossPay;
 
-        //Create a Scanner object to read input
-        Scanner read = new Scanner(System.in);
 
         //Get the user's name
         System.out.println("What is your name?");
+        Scanner read = null;
         name = read.nextLine();
 
         //Get the number of hours worked
@@ -28,5 +32,26 @@ public class L8 {
 
         System.out.println("Hello " + name);
         System.out.println("Your gross pay is $" + grossPay);
+        // Bugaboo #1 - Hanging Carriage
+        int age;
+        ;
+
+        System.out.println("How old are you?");
+        age = read.nextInt();
+
+        System.out.println("What is your name?");
+        ;
+
+        System.out.println("Hello, " + name + ". You are " + age + "years old.");
+
+        String firstName;
+        String lastname;
+
+        System.out.println();
+        firstName = read.next();
+        lastname = read.nextLine();
+
+        System.out.println("Hello," + firstName + " " + lastname);
+
     }
-}
+    }
