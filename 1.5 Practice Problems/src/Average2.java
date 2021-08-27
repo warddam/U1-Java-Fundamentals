@@ -7,9 +7,11 @@ public class Average2 {
     public static void main(String[] args) {
         int num1 = 58;
         int num2 = 116;
-         int Average = num2 / num1;
 
-        System.out.println("Average: " + Average);
+        int sumTotal = num1+ num2;
+        double average = sumTotal/2.0;
+
+        System.out.println("The average is: " + average);
 
 
     }
