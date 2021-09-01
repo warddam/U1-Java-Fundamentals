@@ -5,9 +5,9 @@ public class SteamDiscount {
      */
     public static void main(String[] args) {
      int game = 60;
-     int discount = 12;
-
-        System.out.println( game - discount);
+     double discount = .20;
+     double newprice = game -(game*discount);
+        System.out.println("Discount Price Is:$" + newprice);
     }
 
     }

@@ -7,10 +7,15 @@ public class TimeCrunch {
     Example:
      */
     public static void main(String[] args) {
-  double secHour = 300.0 ;
-     double secMin = 60 ;
-     double sec = 0.60;
-        System.out.println( secHour * sec);
 
+
+            int seconds=4500;
+
+            //convert seconds into hr, min, sec
+            int hr=(int)(seconds/3600);
+            int min=((int)(seconds/60))%60;
+            int sec=(int)(seconds/60);
+
+            System.out.println("Hours:"+hr+"\n"+"Minutes:"+ min +"\n"+"Seconds" + sec);
+        }
     }
-}
